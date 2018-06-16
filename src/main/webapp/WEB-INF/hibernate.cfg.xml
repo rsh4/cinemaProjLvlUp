@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="show_sql">false</property>
+        <property name="format_sql">false</property>
+        <mapping class="net.nelevelup.proj.entity.System"/>
+        <mapping class="net.nelevelup.proj.entity.SessionList"/>
+        <mapping class="net.nelevelup.proj.entity.Session"/>
+        <mapping class="net.nelevelup.proj.entity.Product"/>
+        <mapping class="net.nelevelup.proj.entity.HallList"/>
+        <mapping class="net.nelevelup.proj.entity.Hall"/>
+        <mapping class="net.nelevelup.proj.entity.Genre"/>
+        <mapping class="net.nelevelup.proj.entity.FilmGenresList"/>
+        <mapping class="net.nelevelup.proj.entity.Film"/>
+        <mapping class="net.nelevelup.proj.entity.Cost"/>
+        <mapping class="net.nelevelup.proj.entity.Cinema"/>
+        <mapping class="net.nelevelup.proj.entity.users.User"/>
+        <mapping class="net.nelevelup.proj.entity.users.Role"/>
+    </session-factory>
+</hibernate-configuration>

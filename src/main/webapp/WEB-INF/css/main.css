@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+.main_container{
+    padding: 10px;
+    background: url(https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg) repeat;
+    border: solid 1px #aaa;
+    width: 870px;
+    overflow: hidden;
+    margin: auto;
+}
+.main_container_element_premiere{
+    width: 260px;
+    height: 470px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    float: left;
+}
+.film_image:hover{
+    box-shadow: 3px 3px 3px 3px #eee;
+}
+.premiere_image{
+    width: 260px;
+    height: 470px;
+}
+.main_container_element_film{
+    width: 163px;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+}
+.premiere_image:hover{
+    box-shadow: 3px 3px 3px 3px #eee;
+}
+.film_image{
+    width: 156px;
+    height: 280px;
+    margin-bottom: 10px;
+}
+.film_container{
+    background: url(https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg) repeat;
+    border: solid 1px #aaa;
+    width: 840px;
+    height: 700px;
+    overflow: hidden;
+    margin: auto;
+}
+.premiere_image{
+    width: 260px;
+    height: 470px;
+    margin: 15px;
+    position: relative;
+    float: left;
+}
+.film_description{
+    color: #000000;
+    font-size: 22px;
+    position: relative;
+    margin-left: 20px;
+}
+.le{
+    margin: 20px auto;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+}
+.le1{
+    margin: 10px auto;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+}
+body{
+    margin: 0px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: #333;
+}
+.accept{
+    background-color: #1111ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.accept:hover{
+    background-color: #1111aa;
+}
+.text_input{
+    display: inline-block;
+    margin-top: 5px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid #aa1111;
+    width: 200px;
+    height:30px;
+}
+.text_input:focus{
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid #1111ff;
+}
+.description_input{
+    display: inline-block;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid #aa1111;
+    width: 200px;
+    height:100px;
+}
+.description_input:focus{
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid #1111ff;
+}
+.login_div{
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    box-shadow: 5px 5px 6px 3px #eee;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    background: url(https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg) repeat;
+}
+.registration_reference{
+    background-color: #ff2222;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.registration_reference:hover{
+    background-color: #aa2222;
+}
+.reference:hover{
+    background-color: #ff6666;
+}
+.wrong{
+    text-align: center;
+    color: #ff2222;
+    font-size: 16px;
+}
+.header{
+    background: url(http://1-background.com/images/silk/white-silk-fabric-website-background.jpg) repeat;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 1px 1px #eee;
+}
+.footer{
+    background: url(http://1-background.com/images/silk/white-silk-fabric-website-background.jpg) repeat;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    margin-top: 20px;
+}
+.admin_choice{
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    box-shadow: 5px 5px 6px 3px #eee;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    background: url(http://1-background.com/images/silk/white-silk-fabric-website-background.jpg) repeat;;
+}
+.admin_choice_reference{
+    margin-top: 20px;
+    background-color: #ff2222;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.admin_choice_reference:hover{
+    background-color: #aa2222;
+}
+.add_film{
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+    box-shadow: 5px 5px 6px 3px #eee;
+    text-align: center;
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    background: url(http://1-background.com/images/silk/white-silk-fabric-website-background.jpg) repeat;;
+}
+.image{
+    margin-left: 55px;
+}
+.delete_film{
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    box-shadow: 1px 1px 1px 1px #eee;
+    text-align: center;
+    width: 300px;
+    height: 700px;
+    margin: auto;
+    background: url(http://1-background.com/images/silk/white-silk-fabric-website-background.jpg) repeat;;
+}
+.delete_film_reference{
+    margin-top: 20px;
+    background-color: #ff2222;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.delete_film_reference:hover{
+    background-color: #aa2222;
+}
+.films{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px #eee;
+}
+.add_session{
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    box-shadow: 5px 5px 6px 3px #eee;
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    margin: auto;
+    background: url(http://1-background.com/images/silk/white-silk-fabric-website-background.jpg) repeat;
+}
+.choice{
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    box-shadow: 5px 5px 6px 3px #eee;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    background: url(https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg) repeat;
+}
+.select-style {
+    margin-left: 87px;
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+.label_choice{
+    margin-bottom: 15px;
+}
+.cinema_name{
+    font-size: 35px;
+    padding: 10px;
+    background-color: #cceeee;
+    border-radius: 5px;
+}
+.outside_container{
+    margin-left: 15px;
+    background-color: #eeffff;
+    font-size: 22px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px 1px #cceeee;
+    padding-left: 15px;
+    width: 600px;
+    height: 140px;
+}
+.registration_div{
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    box-shadow: 5px 5px 6px 3px #eee;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    background: url(https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg) repeat;
+}
